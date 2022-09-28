@@ -1,0 +1,8 @@
+### Editor junk ###
+*.sublime-workspace
+*.swp
+.idea/
+*.iml
+*.tmp
+.vscode/
+.vs/

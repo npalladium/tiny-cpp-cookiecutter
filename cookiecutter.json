@@ -1,0 +1,22 @@
+{
+  "project": "mini-cpp",
+  "author_name": "author_name",
+  "license": [
+    "BSD 2-Clause License",
+    "BSD 3-Clause License",
+    "MIT license",
+    "ISC license",
+    "Apache Software License 2.0",
+    "GNU Lesser General Public License v3 or later (LGPLv3+)",
+    "GNU Lesser General Public License v3 (LGPLv3)",
+    "GNU Lesser General Public License v2.1 or later (LGPLv2+)",
+    "GNU Lesser General Public License v2.1 (LGPLv2)",
+    "No License"
+  ],
+  "remove_license_file": ["no", "yes"],
+  "version": "0.1",
+  "cpp_standard": ["20", "17", "14", "11"],
+  "executable": "default.out",
+  "folder": "default",
+  "libraries": {}
+}
