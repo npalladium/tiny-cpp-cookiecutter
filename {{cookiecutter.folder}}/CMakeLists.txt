@@ -10,7 +10,7 @@ set_target_properties({{cookiecutter.executable}}
         CXX_EXTENSIONS NO
 )
 
-{% for package, details in cookiecutter.libraries|dictsort %}
+{% for package, details in cookiecutter.libraries|dictsort -%}
 find_package({{package}} {{details.version}} REQUIRED COMPONENTS {{details.components | join(' ')}})
 target_link_libraries({{cookiecutter.executable}} PRIVATE {{package}}::{{details.components | join(" " + package + "::")}}) 
-{% endfor %}
+{%- endfor %}
