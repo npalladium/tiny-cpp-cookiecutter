@@ -2,9 +2,10 @@
   "project": "mini-cpp",
   "author_name": "author_name",
   "license": [
+    "MIT license",
+    "MPL 2.0",
     "BSD 2-Clause License",
     "BSD 3-Clause License",
-    "MIT license",
     "ISC license",
     "Apache Software License 2.0",
     "GNU Lesser General Public License v3 or later (LGPLv3+)",
