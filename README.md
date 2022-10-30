@@ -42,6 +42,11 @@ folder [default]: example
 libraries [default]: {"Boost": {"components": ["program_options"], "version": "1.79"}}
 ```
 
+## References
+
+- [CppCon 2017: Mathieu Ropert “Using Modern CMake Patterns to Enforce a Good Modular Design”](https://www.youtube.com/watch?v=eC9-iRN2b04)
+- [C++Now 2017: Daniel Pfeifer “Effective CMake"](https://www.youtube.com/watch?v=bsXLMQ6WgIk)
+
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
